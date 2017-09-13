@@ -27,5 +27,12 @@ let url = URL(fileURLWithPath: "Registry/\(letter).json")
 
 let data = try! Data(contentsOf: url)
 var file = try! decoder.decode(RegistryFile.self, from: data)
+let existing = Set(file.entries.map { $0.name })
+
+guard !existing.contains(CommandLine.arguments[2]) else {
+    print("Error: \(CommandLine.arguments[2]) already exists in the registry")
+    exit(1)
+}
+
 file.entries.append(.init(name: CommandLine.arguments[2], url: CommandLine.arguments[1]))
 try! encoder.encode(file).write(to: url)

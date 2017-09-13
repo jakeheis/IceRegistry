@@ -87,12 +87,12 @@ for index in 0..<26 {
     }
     map[String(letter)] = file
     
-    existing.formUnion(file.entries.map { $0.url })
+    existing.formUnion(file.entries.map { $0.name })
 }
 
 for repository in items {
-    guard !existing.contains(repository.html_url) else {
-        print("Already have \(repository.html_url)")
+    guard !existing.contains(repository.name) else {
+        print("Skipping \(repository.name) (already exists in registry)")
         continue
     }
     guard isPackage(url: repository.html_url) else {
@@ -105,6 +105,7 @@ for repository in items {
     var file = map[key] ?? RegistryFile(entries: [])
     file.entries.append(.init(name: repository.name, url: repository.html_url))
     map[key] = file
+    existing.insert(repository.name)
 }
 
 for (letter, file) in map {
