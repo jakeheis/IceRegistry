@@ -1,0 +1,20 @@
+{
+  "entries" : [
+    {
+      "name" : "ObjectMapper",
+      "url" : "https:\/\/github.com\/Hearst-DD\/ObjectMapper"
+    },
+    {
+      "name" : "OAuthSwift",
+      "url" : "https:\/\/github.com\/OAuthSwift\/OAuthSwift"
+    },
+    {
+      "name" : "Overdrive",
+      "url" : "https:\/\/github.com\/arikis\/Overdrive"
+    },
+    {
+      "name" : "ObjectiveKit",
+      "url" : "https:\/\/github.com\/marmelroy\/ObjectiveKit"
+    }
+  ]
+}

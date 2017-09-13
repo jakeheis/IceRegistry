@@ -1,0 +1,176 @@
+{
+  "entries" : [
+    {
+      "name" : "SwiftyJSON",
+      "url" : "https:\/\/github.com\/SwiftyJSON\/SwiftyJSON"
+    },
+    {
+      "name" : "SnapKit",
+      "url" : "https:\/\/github.com\/SnapKit\/SnapKit"
+    },
+    {
+      "name" : "SwiftLint",
+      "url" : "https:\/\/github.com\/realm\/SwiftLint"
+    },
+    {
+      "name" : "swift-package-manager",
+      "url" : "https:\/\/github.com\/apple\/swift-package-manager"
+    },
+    {
+      "name" : "Swift-AI",
+      "url" : "https:\/\/github.com\/Swift-AI\/Swift-AI"
+    },
+    {
+      "name" : "SQLite.swift",
+      "url" : "https:\/\/github.com\/stephencelis\/SQLite.swift"
+    },
+    {
+      "name" : "Surge",
+      "url" : "https:\/\/github.com\/mattt\/Surge"
+    },
+    {
+      "name" : "SwifterSwift",
+      "url" : "https:\/\/github.com\/SwifterSwift\/SwifterSwift"
+    },
+    {
+      "name" : "SwiftDate",
+      "url" : "https:\/\/github.com\/malcommac\/SwiftDate"
+    },
+    {
+      "name" : "Starscream",
+      "url" : "https:\/\/github.com\/daltoniam\/Starscream"
+    },
+    {
+      "name" : "SwiftyBeaver",
+      "url" : "https:\/\/github.com\/SwiftyBeaver\/SwiftyBeaver"
+    },
+    {
+      "name" : "Swiftz",
+      "url" : "https:\/\/github.com\/typelift\/Swiftz"
+    },
+    {
+      "name" : "SwiftyUserDefaults",
+      "url" : "https:\/\/github.com\/radex\/SwiftyUserDefaults"
+    },
+    {
+      "name" : "socket.io-client-swift",
+      "url" : "https:\/\/github.com\/socketio\/socket.io-client-swift"
+    },
+    {
+      "name" : "Sourcery",
+      "url" : "https:\/\/github.com\/krzysztofzablocki\/Sourcery"
+    },
+    {
+      "name" : "Stellar",
+      "url" : "https:\/\/github.com\/AugustRush\/Stellar"
+    },
+    {
+      "name" : "SwipeCellKit",
+      "url" : "https:\/\/github.com\/SwipeCellKit\/SwipeCellKit"
+    },
+    {
+      "name" : "SkyFloatingLabelTextField",
+      "url" : "https:\/\/github.com\/Skyscanner\/SkyFloatingLabelTextField"
+    },
+    {
+      "name" : "Stevia",
+      "url" : "https:\/\/github.com\/freshOS\/Stevia"
+    },
+    {
+      "name" : "swifter",
+      "url" : "https:\/\/github.com\/httpswift\/swifter"
+    },
+    {
+      "name" : "Swifton",
+      "url" : "https:\/\/github.com\/necolt\/Swifton"
+    },
+    {
+      "name" : "Siren",
+      "url" : "https:\/\/github.com\/ArtSabintsev\/Siren"
+    },
+    {
+      "name" : "Swinject",
+      "url" : "https:\/\/github.com\/Swinject\/Swinject"
+    },
+    {
+      "name" : "Swifter",
+      "url" : "https:\/\/github.com\/mattdonnelly\/Swifter"
+    },
+    {
+      "name" : "SwiftHTTP",
+      "url" : "https:\/\/github.com\/daltoniam\/SwiftHTTP"
+    },
+    {
+      "name" : "SwiftKotlin",
+      "url" : "https:\/\/github.com\/angelolloqui\/SwiftKotlin"
+    },
+    {
+      "name" : "SFFocusViewLayout",
+      "url" : "https:\/\/github.com\/fdzsergio\/SFFocusViewLayout"
+    },
+    {
+      "name" : "SwiftFormat",
+      "url" : "https:\/\/github.com\/nicklockwood\/SwiftFormat"
+    },
+    {
+      "name" : "siesta",
+      "url" : "https:\/\/github.com\/bustoutsolutions\/siesta"
+    },
+    {
+      "name" : "SwiftLocation",
+      "url" : "https:\/\/github.com\/malcommac\/SwiftLocation"
+    },
+    {
+      "name" : "swift-protobuf",
+      "url" : "https:\/\/github.com\/apple\/swift-protobuf"
+    },
+    {
+      "name" : "Stencil",
+      "url" : "https:\/\/github.com\/kylef\/Stencil"
+    },
+    {
+      "name" : "SourceKitten",
+      "url" : "https:\/\/github.com\/jpsim\/SourceKitten"
+    },
+    {
+      "name" : "SwiftRichString",
+      "url" : "https:\/\/github.com\/malcommac\/SwiftRichString"
+    },
+    {
+      "name" : "SwiftyCam",
+      "url" : "https:\/\/github.com\/Awalz\/SwiftyCam"
+    },
+    {
+      "name" : "Swiftline",
+      "url" : "https:\/\/github.com\/nsomar\/Swiftline"
+    },
+    {
+      "name" : "SwiftyTimer",
+      "url" : "https:\/\/github.com\/radex\/SwiftyTimer"
+    },
+    {
+      "name" : "SwiftWebSocket",
+      "url" : "https:\/\/github.com\/tidwall\/SwiftWebSocket"
+    },
+    {
+      "name" : "SwiftCheck",
+      "url" : "https:\/\/github.com\/typelift\/SwiftCheck"
+    },
+    {
+      "name" : "SWXMLHash",
+      "url" : "https:\/\/github.com\/drmohundro\/SWXMLHash"
+    },
+    {
+      "name" : "Splitflap",
+      "url" : "https:\/\/github.com\/yannickl\/Splitflap"
+    },
+    {
+      "name" : "SwiftLinkPreview",
+      "url" : "https:\/\/github.com\/LeonardoCardoso\/SwiftLinkPreview"
+    },
+    {
+      "name" : "SwiftyGif",
+      "url" : "https:\/\/github.com\/kirualex\/SwiftyGif"
+    }
+  ]
+}

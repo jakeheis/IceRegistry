@@ -1,0 +1,44 @@
+{
+  "entries" : [
+    {
+      "name" : "FSPagerView",
+      "url" : "https:\/\/github.com\/WenchaoD\/FSPagerView"
+    },
+    {
+      "name" : "FileKit",
+      "url" : "https:\/\/github.com\/nvzqz\/FileKit"
+    },
+    {
+      "name" : "FolioReaderKit",
+      "url" : "https:\/\/github.com\/FolioReader\/FolioReaderKit"
+    },
+    {
+      "name" : "FengNiao",
+      "url" : "https:\/\/github.com\/onevcat\/FengNiao"
+    },
+    {
+      "name" : "Freddy",
+      "url" : "https:\/\/github.com\/bignerdranch\/Freddy"
+    },
+    {
+      "name" : "Files",
+      "url" : "https:\/\/github.com\/JohnSundell\/Files"
+    },
+    {
+      "name" : "FontBlaster",
+      "url" : "https:\/\/github.com\/ArtSabintsev\/FontBlaster"
+    },
+    {
+      "name" : "fluent",
+      "url" : "https:\/\/github.com\/vapor\/fluent"
+    },
+    {
+      "name" : "FlowingMenu",
+      "url" : "https:\/\/github.com\/yannickl\/FlowingMenu"
+    },
+    {
+      "name" : "FutureKit",
+      "url" : "https:\/\/github.com\/FutureKit\/FutureKit"
+    }
+  ]
+}

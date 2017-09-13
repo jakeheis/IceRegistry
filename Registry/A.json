@@ -1,0 +1,52 @@
+{
+  "entries" : [
+    {
+      "name" : "Alamofire",
+      "url" : "https:\/\/github.com\/Alamofire\/Alamofire"
+    },
+    {
+      "name" : "Async",
+      "url" : "https:\/\/github.com\/duemunk\/Async"
+    },
+    {
+      "name" : "Advance",
+      "url" : "https:\/\/github.com\/storehouse\/Advance"
+    },
+    {
+      "name" : "Argo",
+      "url" : "https:\/\/github.com\/thoughtbot\/Argo"
+    },
+    {
+      "name" : "AnimatedCollectionViewLayout",
+      "url" : "https:\/\/github.com\/KelvinJin\/AnimatedCollectionViewLayout"
+    },
+    {
+      "name" : "AlamofireImage",
+      "url" : "https:\/\/github.com\/Alamofire\/AlamofireImage"
+    },
+    {
+      "name" : "APIKit",
+      "url" : "https:\/\/github.com\/ishkawa\/APIKit"
+    },
+    {
+      "name" : "AppIcon",
+      "url" : "https:\/\/github.com\/Nonchalant\/AppIcon"
+    },
+    {
+      "name" : "arek",
+      "url" : "https:\/\/github.com\/ennioma\/arek"
+    },
+    {
+      "name" : "apollo-ios",
+      "url" : "https:\/\/github.com\/apollographql\/apollo-ios"
+    },
+    {
+      "name" : "AlecrimCoreData",
+      "url" : "https:\/\/github.com\/Alecrim\/AlecrimCoreData"
+    },
+    {
+      "name" : "AEXML",
+      "url" : "https:\/\/github.com\/tadija\/AEXML"
+    }
+  ]
+}

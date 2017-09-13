@@ -1,0 +1,20 @@
+{
+  "entries" : [
+    {
+      "name" : "ESTabBarController",
+      "url" : "https:\/\/github.com\/eggswift\/ESTabBarController"
+    },
+    {
+      "name" : "EFQRCode",
+      "url" : "https:\/\/github.com\/EyreFree\/EFQRCode"
+    },
+    {
+      "name" : "Express",
+      "url" : "https:\/\/github.com\/crossroadlabs\/Express"
+    },
+    {
+      "name" : "Element",
+      "url" : "https:\/\/github.com\/eonist\/Element"
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "entries" : [
+    {
+      "name" : "Kingfisher",
+      "url" : "https:\/\/github.com\/onevcat\/Kingfisher"
+    },
+    {
+      "name" : "Kitura",
+      "url" : "https:\/\/github.com\/IBM-Swift\/Kitura"
+    },
+    {
+      "name" : "KeychainAccess",
+      "url" : "https:\/\/github.com\/kishikawakatsumi\/KeychainAccess"
+    },
+    {
+      "name" : "Kanna",
+      "url" : "https:\/\/github.com\/tid-kijyun\/Kanna"
+    },
+    {
+      "name" : "KZFileWatchers",
+      "url" : "https:\/\/github.com\/krzysztofzablocki\/KZFileWatchers"
+    },
+    {
+      "name" : "keychain-swift",
+      "url" : "https:\/\/github.com\/evgenyneu\/keychain-swift"
+    }
+  ]
+}

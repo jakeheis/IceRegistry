@@ -1,0 +1,24 @@
+{
+  "entries" : [
+    {
+      "name" : "IBAnimatable",
+      "url" : "https:\/\/github.com\/IBAnimatable\/IBAnimatable"
+    },
+    {
+      "name" : "Instructions",
+      "url" : "https:\/\/github.com\/ephread\/Instructions"
+    },
+    {
+      "name" : "Interpolate",
+      "url" : "https:\/\/github.com\/marmelroy\/Interpolate"
+    },
+    {
+      "name" : "IHKeyboardAvoiding",
+      "url" : "https:\/\/github.com\/IdleHandsApps\/IHKeyboardAvoiding"
+    },
+    {
+      "name" : "Interstellar",
+      "url" : "https:\/\/github.com\/JensRavens\/Interstellar"
+    }
+  ]
+}

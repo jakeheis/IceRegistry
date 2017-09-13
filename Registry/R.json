@@ -1,0 +1,56 @@
+{
+  "entries" : [
+    {
+      "name" : "RxSwift",
+      "url" : "https:\/\/github.com\/ReactiveX\/RxSwift"
+    },
+    {
+      "name" : "ReSwift",
+      "url" : "https:\/\/github.com\/ReSwift\/ReSwift"
+    },
+    {
+      "name" : "R.swift",
+      "url" : "https:\/\/github.com\/mac-cain13\/R.swift"
+    },
+    {
+      "name" : "RNCryptor",
+      "url" : "https:\/\/github.com\/RNCryptor\/RNCryptor"
+    },
+    {
+      "name" : "reel-search",
+      "url" : "https:\/\/github.com\/Ramotion\/reel-search"
+    },
+    {
+      "name" : "Result",
+      "url" : "https:\/\/github.com\/antitypical\/Result"
+    },
+    {
+      "name" : "ReactiveSwift",
+      "url" : "https:\/\/github.com\/ReactiveCocoa\/ReactiveSwift"
+    },
+    {
+      "name" : "Reusable",
+      "url" : "https:\/\/github.com\/AliSoftware\/Reusable"
+    },
+    {
+      "name" : "RandomKit",
+      "url" : "https:\/\/github.com\/nvzqz\/RandomKit"
+    },
+    {
+      "name" : "Rainbow",
+      "url" : "https:\/\/github.com\/onevcat\/Rainbow"
+    },
+    {
+      "name" : "ReactiveKit",
+      "url" : "https:\/\/github.com\/ReactiveKit\/ReactiveKit"
+    },
+    {
+      "name" : "RxDataSources",
+      "url" : "https:\/\/github.com\/RxSwiftCommunity\/RxDataSources"
+    },
+    {
+      "name" : "ReactorKit",
+      "url" : "https:\/\/github.com\/ReactorKit\/ReactorKit"
+    }
+  ]
+}

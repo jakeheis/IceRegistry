@@ -1,0 +1,24 @@
+{
+  "entries" : [
+    {
+      "name" : "Hero",
+      "url" : "https:\/\/github.com\/lkzhao\/Hero"
+    },
+    {
+      "name" : "HandyJSON",
+      "url" : "https:\/\/github.com\/alibaba\/HandyJSON"
+    },
+    {
+      "name" : "Hydra",
+      "url" : "https:\/\/github.com\/malcommac\/Hydra"
+    },
+    {
+      "name" : "Hedwig",
+      "url" : "https:\/\/github.com\/onevcat\/Hedwig"
+    },
+    {
+      "name" : "HaishinKit.swift",
+      "url" : "https:\/\/github.com\/shogo4405\/HaishinKit.swift"
+    }
+  ]
+}

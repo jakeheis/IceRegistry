@@ -1,0 +1,31 @@
+#!/usr/bin/env swift
+
+import Foundation
+import Dispatch
+
+guard CommandLine.arguments.count == 3 else {
+    print("Usage: ./Script/add <url> <name>")
+    exit(1)
+}
+
+struct RegistryFile: Codable {
+    struct Entry: Codable {
+        let name: String
+        let url: String
+    }
+    
+    public var entries: [Entry]
+}
+
+let decoder = JSONDecoder()
+let encoder = JSONEncoder()
+encoder.outputFormatting = .prettyPrinted
+
+var letter = CommandLine.arguments[2].uppercased()
+letter = String(letter[letter.startIndex])
+let url = URL(fileURLWithPath: "Registry/\(letter).json")
+
+let data = try! Data(contentsOf: url)
+var file = try! decoder.decode(RegistryFile.self, from: data)
+file.entries.append(.init(name: CommandLine.arguments[2], url: CommandLine.arguments[1]))
+try! encoder.encode(file).write(to: url)

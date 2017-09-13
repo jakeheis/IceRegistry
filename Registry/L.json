@@ -1,0 +1,24 @@
+{
+  "entries" : [
+    {
+      "name" : "Locksmith",
+      "url" : "https:\/\/github.com\/matthewpalmer\/Locksmith"
+    },
+    {
+      "name" : "LayoutKit",
+      "url" : "https:\/\/github.com\/linkedin\/LayoutKit"
+    },
+    {
+      "name" : "Localize-Swift",
+      "url" : "https:\/\/github.com\/marmelroy\/Localize-Swift"
+    },
+    {
+      "name" : "LicensePlist",
+      "url" : "https:\/\/github.com\/mono0926\/LicensePlist"
+    },
+    {
+      "name" : "LocalizationKit_iOS",
+      "url" : "https:\/\/github.com\/willpowell8\/LocalizationKit_iOS"
+    }
+  ]
+}

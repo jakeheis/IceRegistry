@@ -1,0 +1,24 @@
+{
+  "entries" : [
+    {
+      "name" : "JTAppleCalendar",
+      "url" : "https:\/\/github.com\/patchthecode\/JTAppleCalendar"
+    },
+    {
+      "name" : "Just",
+      "url" : "https:\/\/github.com\/JustHTTP\/Just"
+    },
+    {
+      "name" : "JTMaterialTransition",
+      "url" : "https:\/\/github.com\/jonathantribouharet\/JTMaterialTransition"
+    },
+    {
+      "name" : "json-swift",
+      "url" : "https:\/\/github.com\/owensd\/json-swift"
+    },
+    {
+      "name" : "Ji",
+      "url" : "https:\/\/github.com\/honghaoz\/Ji"
+    }
+  ]
+}

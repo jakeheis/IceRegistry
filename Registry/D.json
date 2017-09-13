@@ -1,0 +1,28 @@
+{
+  "entries" : [
+    {
+      "name" : "Dollar",
+      "url" : "https:\/\/github.com\/ankurp\/Dollar"
+    },
+    {
+      "name" : "DynamicColor",
+      "url" : "https:\/\/github.com\/yannickl\/DynamicColor"
+    },
+    {
+      "name" : "Dwifft",
+      "url" : "https:\/\/github.com\/jflinter\/Dwifft"
+    },
+    {
+      "name" : "Decodable",
+      "url" : "https:\/\/github.com\/Anviking\/Decodable"
+    },
+    {
+      "name" : "DynamicButton",
+      "url" : "https:\/\/github.com\/yannickl\/DynamicButton"
+    },
+    {
+      "name" : "Diff.swift",
+      "url" : "https:\/\/github.com\/wokalski\/Diff.swift"
+    }
+  ]
+}

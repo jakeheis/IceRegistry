@@ -1,0 +1,48 @@
+{
+  "entries" : [
+    {
+      "name" : "Carthage",
+      "url" : "https:\/\/github.com\/Carthage\/Carthage"
+    },
+    {
+      "name" : "CryptoSwift",
+      "url" : "https:\/\/github.com\/krzyzanowskim\/CryptoSwift"
+    },
+    {
+      "name" : "CoreStore",
+      "url" : "https:\/\/github.com\/JohnEstropia\/CoreStore"
+    },
+    {
+      "name" : "CleanroomLogger",
+      "url" : "https:\/\/github.com\/emaloney\/CleanroomLogger"
+    },
+    {
+      "name" : "CommandLine",
+      "url" : "https:\/\/github.com\/jatoben\/CommandLine"
+    },
+    {
+      "name" : "ColorMatchTabs",
+      "url" : "https:\/\/github.com\/Yalantis\/ColorMatchTabs"
+    },
+    {
+      "name" : "Commander",
+      "url" : "https:\/\/github.com\/kylef\/Commander"
+    },
+    {
+      "name" : "Cleanse",
+      "url" : "https:\/\/github.com\/square\/Cleanse"
+    },
+    {
+      "name" : "Cluster",
+      "url" : "https:\/\/github.com\/efremidze\/Cluster"
+    },
+    {
+      "name" : "Cacao",
+      "url" : "https:\/\/github.com\/PureSwift\/Cacao"
+    },
+    {
+      "name" : "Changeset",
+      "url" : "https:\/\/github.com\/osteslag\/Changeset"
+    }
+  ]
+}

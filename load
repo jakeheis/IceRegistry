@@ -1,0 +1,114 @@
+#!/usr/bin/env swift
+
+import Foundation
+import Dispatch
+
+guard CommandLine.arguments.count == 3, 
+    let startPage = Int(CommandLine.arguments[1]), 
+    let endPage = Int(CommandLine.arguments[2]) else {
+    print("Usage: ./load <startPage> <endPage>")
+    exit(1)
+}
+
+struct Results: Codable {
+    let items: [Repository]
+}
+
+struct Repository: Codable {
+    let name: String
+    let html_url: String
+}
+
+struct RegistryFile: Codable {
+    struct Entry: Codable {
+        let name: String
+        let url: String
+    }
+    
+    public var entries: [Entry]
+}
+
+func syncRequest(url: String) -> Data? {
+    let request = URLRequest(url: URL(string: url)!)
+    let semaphore = DispatchSemaphore(value: 0)
+    var data: Data?
+    let task = URLSession.shared.dataTask(with: request) { (returnedData, response, error) in
+        data = returnedData
+        semaphore.signal()
+    }
+    task.resume()
+    semaphore.wait()
+    return data
+}
+
+func isPackage(url: String) -> Bool {
+    let packageUrl = url + "/blob/HEAD/Package.swift"
+    guard let data = syncRequest(url: packageUrl), 
+        let response = String(data: data, encoding: .utf8) else {
+        return false
+    }
+    if response.contains("triggered an abuse detection mechanism") {
+        print("Warning: triggered abuse, sleeping for a minute")
+        sleep(60)
+        guard let secondTryData = syncRequest(url: packageUrl), 
+            let secondTryResponse = String(data: secondTryData, encoding: .utf8) else {
+            return false
+        }
+        if secondTryResponse.contains("triggered an abuse detection mechanism") {
+            fatalError("Error: rate limit exceeded, try a smaller page range")
+        }
+    }
+    return response != "Not Found"
+}
+
+let decoder = JSONDecoder()
+let encoder = JSONEncoder()
+encoder.outputFormatting = .prettyPrinted
+
+var items: [Repository] = []
+for page in startPage...endPage {
+    print("Loading page \(page)")
+    fflush(stdout)
+    let data = syncRequest(url: "https://api.github.com/search/repositories?q=language:swift&sort=stars&order=desc&page=\(page)&per_page=100")
+    let results = try! decoder.decode(Results.self, from: data!)
+    items += results.items
+}
+
+var map: [String: RegistryFile] = [:]
+var existing = Set<String>()
+
+let alphabet = "ABCDEFGHIJKLOMNOPQRSTUVWXYZ"
+for index in 0..<26 {
+    let letter = alphabet[alphabet.index(alphabet.startIndex, offsetBy: index)]
+    let url = URL(fileURLWithPath: "Registry/\(letter).json")
+
+    guard let data = try? Data(contentsOf: url), let file = try? decoder.decode(RegistryFile.self, from: data) else {
+        continue
+    }
+    map[String(letter)] = file
+    
+    existing.formUnion(file.entries.map { $0.url })
+}
+
+for repository in items {
+    guard !existing.contains(repository.html_url) else {
+        print("Already have \(repository.html_url)")
+        continue
+    }
+    guard isPackage(url: repository.html_url) else {
+        print("Skipping \(repository.html_url) (no Package.swift)")
+        continue
+    }
+    print("Adding \(repository.html_url)")
+    fflush(stdout)
+    let key = String(repository.name.uppercased()[repository.name.startIndex])
+    var file = map[key] ?? RegistryFile(entries: [])
+    file.entries.append(.init(name: repository.name, url: repository.html_url))
+    map[key] = file
+}
+
+for (letter, file) in map {
+    try! encoder.encode(file).write(to: URL(fileURLWithPath: "Registry/\(letter).json"))
+}
+
+print("Success!")

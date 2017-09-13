@@ -1,0 +1,28 @@
+{
+  "entries" : [
+    {
+      "name" : "Gloss",
+      "url" : "https:\/\/github.com\/hkellaway\/Gloss"
+    },
+    {
+      "name" : "Guaka",
+      "url" : "https:\/\/github.com\/nsomar\/Guaka"
+    },
+    {
+      "name" : "GRDB.swift",
+      "url" : "https:\/\/github.com\/groue\/GRDB.swift"
+    },
+    {
+      "name" : "Genome",
+      "url" : "https:\/\/github.com\/LoganWright\/Genome"
+    },
+    {
+      "name" : "Graph",
+      "url" : "https:\/\/github.com\/CosmicMind\/Graph"
+    },
+    {
+      "name" : "GlitchLabel",
+      "url" : "https:\/\/github.com\/kciter\/GlitchLabel"
+    }
+  ]
+}
