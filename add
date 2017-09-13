@@ -12,6 +12,7 @@ struct RegistryFile: Codable {
     struct Entry: Codable {
         let name: String
         let url: String
+        let description: String?
     }
     
     public var entries: [Entry]
@@ -34,5 +35,11 @@ guard !existing.contains(CommandLine.arguments[2]) else {
     exit(1)
 }
 
-file.entries.append(.init(name: CommandLine.arguments[2], url: CommandLine.arguments[1]))
+print("Enter description (empty for none):")
+var description = readLine()
+if let d = description, d.isEmpty {
+    description = nil
+}
+
+file.entries.append(.init(name: CommandLine.arguments[2], url: CommandLine.arguments[1], description: description))
 try! encoder.encode(file).write(to: url)

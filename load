@@ -17,12 +17,14 @@ struct Results: Codable {
 struct Repository: Codable {
     let name: String
     let html_url: String
+    let description: String?
 }
 
 struct RegistryFile: Codable {
     struct Entry: Codable {
         let name: String
         let url: String
+        let description: String?
     }
     
     public var entries: [Entry]
@@ -103,7 +105,7 @@ for repository in items {
     fflush(stdout)
     let key = String(repository.name.uppercased()[repository.name.startIndex])
     var file = map[key] ?? RegistryFile(entries: [])
-    file.entries.append(.init(name: repository.name, url: repository.html_url))
+    file.entries.append(.init(name: repository.name, url: repository.html_url, description: repository.description))
     map[key] = file
     existing.insert(repository.name)
 }
