@@ -39,6 +39,14 @@
     {
       "name" : "FutureKit",
       "url" : "https:\/\/github.com\/FutureKit\/FutureKit"
+    },
+    {
+      "name" : "FDWaveformView",
+      "url" : "https:\/\/github.com\/fulldecent\/FDWaveformView"
+    },
+    {
+      "name" : "FlexibleImage",
+      "url" : "https:\/\/github.com\/kawoou\/FlexibleImage"
     }
   ]
 }

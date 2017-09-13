@@ -92,7 +92,7 @@ for index in 0..<26 {
 
 for repository in items {
     guard !existing.contains(repository.name) else {
-        print("Skipping \(repository.name) (already exists in registry)")
+        print("Skipping \(repository.name) \(repository.html_url) (already exists in registry)")
         continue
     }
     guard isPackage(url: repository.html_url) else {

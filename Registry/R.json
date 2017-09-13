@@ -51,6 +51,18 @@
     {
       "name" : "ReactorKit",
       "url" : "https:\/\/github.com\/ReactorKit\/ReactorKit"
+    },
+    {
+      "name" : "Runes",
+      "url" : "https:\/\/github.com\/thoughtbot\/Runes"
+    },
+    {
+      "name" : "RxAutomaton",
+      "url" : "https:\/\/github.com\/inamiy\/RxAutomaton"
+    },
+    {
+      "name" : "Regex",
+      "url" : "https:\/\/github.com\/sharplet\/Regex"
     }
   ]
 }

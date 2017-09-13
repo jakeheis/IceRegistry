@@ -3,6 +3,10 @@
     {
       "name" : "YNDropDownMenu",
       "url" : "https:\/\/github.com\/younatics\/YNDropDownMenu"
+    },
+    {
+      "name" : "YNSearch",
+      "url" : "https:\/\/github.com\/younatics\/YNSearch"
     }
   ]
 }

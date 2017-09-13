@@ -7,6 +7,14 @@
     {
       "name" : "WKZombie",
       "url" : "https:\/\/github.com\/mkoehnke\/WKZombie"
+    },
+    {
+      "name" : "WSTagsField",
+      "url" : "https:\/\/github.com\/whitesmith\/WSTagsField"
+    },
+    {
+      "name" : "Wrap",
+      "url" : "https:\/\/github.com\/JohnSundell\/Wrap"
     }
   ]
 }

@@ -171,6 +171,58 @@
     {
       "name" : "SwiftyGif",
       "url" : "https:\/\/github.com\/kirualex\/SwiftyGif"
+    },
+    {
+      "name" : "SwiftAutoLayout",
+      "url" : "https:\/\/github.com\/indragiek\/SwiftAutoLayout"
+    },
+    {
+      "name" : "SwiftState",
+      "url" : "https:\/\/github.com\/ReactKit\/SwiftState"
+    },
+    {
+      "name" : "swift-sdk",
+      "url" : "https:\/\/github.com\/watson-developer-cloud\/swift-sdk"
+    },
+    {
+      "name" : "SwiftyGPIO",
+      "url" : "https:\/\/github.com\/uraimo\/SwiftyGPIO"
+    },
+    {
+      "name" : "swift-corelibs-xctest",
+      "url" : "https:\/\/github.com\/apple\/swift-corelibs-xctest"
+    },
+    {
+      "name" : "SwiftFoundation",
+      "url" : "https:\/\/github.com\/PureSwift\/SwiftFoundation"
+    },
+    {
+      "name" : "SlackKit",
+      "url" : "https:\/\/github.com\/SlackKit\/SlackKit"
+    },
+    {
+      "name" : "SwiftHEXColors",
+      "url" : "https:\/\/github.com\/thii\/SwiftHEXColors"
+    },
+    {
+      "name" : "SwiftySound",
+      "url" : "https:\/\/github.com\/adamcichy\/SwiftySound"
+    },
+    {
+      "name" : "SigmaSwiftStatistics",
+      "url" : "https:\/\/github.com\/evgenyneu\/SigmaSwiftStatistics"
+    },
+    {
+      "name" : "swift-http",
+      "url" : "https:\/\/github.com\/huytd\/swift-http"
+    },
+    {
+      "name" : "sockets",
+      "url" : "https:\/\/github.com\/vapor\/sockets"
+    },
+    {
+      "name" : "SourceKittenDaemon",
+      "url" : "https:\/\/github.com\/terhechte\/SourceKittenDaemon"
     }
   ]
 }

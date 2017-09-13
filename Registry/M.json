@@ -19,6 +19,18 @@
     {
       "name" : "Metron",
       "url" : "https:\/\/github.com\/toineheuvelmans\/Metron"
+    },
+    {
+      "name" : "Magnetic",
+      "url" : "https:\/\/github.com\/efremidze\/Magnetic"
+    },
+    {
+      "name" : "Marshal",
+      "url" : "https:\/\/github.com\/utahiosmac\/Marshal"
+    },
+    {
+      "name" : "ModelRocket",
+      "url" : "https:\/\/github.com\/ovenbits\/ModelRocket"
     }
   ]
 }

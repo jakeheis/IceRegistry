@@ -47,6 +47,14 @@
     {
       "name" : "AEXML",
       "url" : "https:\/\/github.com\/tadija\/AEXML"
+    },
+    {
+      "name" : "Attabench",
+      "url" : "https:\/\/github.com\/attaswift\/Attabench"
+    },
+    {
+      "name" : "Apodimark",
+      "url" : "https:\/\/github.com\/loiclec\/Apodimark"
     }
   ]
 }

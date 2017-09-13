@@ -15,6 +15,10 @@
     {
       "name" : "ObjectiveKit",
       "url" : "https:\/\/github.com\/marmelroy\/ObjectiveKit"
+    },
+    {
+      "name" : "OAuth2",
+      "url" : "https:\/\/github.com\/p2\/OAuth2"
     }
   ]
 }

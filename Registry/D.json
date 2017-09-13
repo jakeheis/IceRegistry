@@ -23,6 +23,18 @@
     {
       "name" : "Diff.swift",
       "url" : "https:\/\/github.com\/wokalski\/Diff.swift"
+    },
+    {
+      "name" : "DefaultsKit",
+      "url" : "https:\/\/github.com\/nmdias\/DefaultsKit"
+    },
+    {
+      "name" : "Dip",
+      "url" : "https:\/\/github.com\/AliSoftware\/Dip"
+    },
+    {
+      "name" : "DeallocationChecker",
+      "url" : "https:\/\/github.com\/fastred\/DeallocationChecker"
     }
   ]
 }

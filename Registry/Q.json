@@ -3,6 +3,14 @@
     {
       "name" : "Quick",
       "url" : "https:\/\/github.com\/Quick\/Quick"
+    },
+    {
+      "name" : "Queuer",
+      "url" : "https:\/\/github.com\/FabrizioBrancati\/Queuer"
+    },
+    {
+      "name" : "QRCodeReader.swift",
+      "url" : "https:\/\/github.com\/yannickl\/QRCodeReader.swift"
     }
   ]
 }

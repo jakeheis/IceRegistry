@@ -15,6 +15,18 @@
     {
       "name" : "Element",
       "url" : "https:\/\/github.com\/eonist\/Element"
+    },
+    {
+      "name" : "Elevate",
+      "url" : "https:\/\/github.com\/Nike-Inc\/Elevate"
+    },
+    {
+      "name" : "EatFit",
+      "url" : "https:\/\/github.com\/Yalantis\/EatFit"
+    },
+    {
+      "name" : "Eject",
+      "url" : "https:\/\/github.com\/Raizlabs\/Eject"
     }
   ]
 }

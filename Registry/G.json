@@ -23,6 +23,10 @@
     {
       "name" : "GlitchLabel",
       "url" : "https:\/\/github.com\/kciter\/GlitchLabel"
+    },
+    {
+      "name" : "Guitar",
+      "url" : "https:\/\/github.com\/ArtSabintsev\/Guitar"
     }
   ]
 }

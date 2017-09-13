@@ -23,6 +23,14 @@
     {
       "name" : "TabPageViewController",
       "url" : "https:\/\/github.com\/EndouMari\/TabPageViewController"
+    },
+    {
+      "name" : "then",
+      "url" : "https:\/\/github.com\/freshOS\/then"
+    },
+    {
+      "name" : "Tabman",
+      "url" : "https:\/\/github.com\/uias\/Tabman"
     }
   ]
 }

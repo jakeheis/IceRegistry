@@ -19,6 +19,10 @@
     {
       "name" : "Ji",
       "url" : "https:\/\/github.com\/honghaoz\/Ji"
+    },
+    {
+      "name" : "JSQDataSourcesKit",
+      "url" : "https:\/\/github.com\/jessesquires\/JSQDataSourcesKit"
     }
   ]
 }

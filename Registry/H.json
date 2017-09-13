@@ -19,6 +19,14 @@
     {
       "name" : "HaishinKit.swift",
       "url" : "https:\/\/github.com\/shogo4405\/HaishinKit.swift"
+    },
+    {
+      "name" : "Himotoki",
+      "url" : "https:\/\/github.com\/ikesyo\/Himotoki"
+    },
+    {
+      "name" : "Highlighter",
+      "url" : "https:\/\/github.com\/younatics\/Highlighter"
     }
   ]
 }

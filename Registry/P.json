@@ -39,6 +39,18 @@
     {
       "name" : "pull-to-refresh",
       "url" : "https:\/\/github.com\/eggswift\/pull-to-refresh"
+    },
+    {
+      "name" : "ProcedureKit",
+      "url" : "https:\/\/github.com\/ProcedureKit\/ProcedureKit"
+    },
+    {
+      "name" : "Preheat",
+      "url" : "https:\/\/github.com\/kean\/Preheat"
+    },
+    {
+      "name" : "PrediKit",
+      "url" : "https:\/\/github.com\/KrakenDev\/PrediKit"
     }
   ]
 }

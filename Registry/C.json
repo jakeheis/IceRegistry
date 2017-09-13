@@ -43,6 +43,22 @@
     {
       "name" : "Changeset",
       "url" : "https:\/\/github.com\/osteslag\/Changeset"
+    },
+    {
+      "name" : "CameraManager",
+      "url" : "https:\/\/github.com\/imaginary-cloud\/CameraManager"
+    },
+    {
+      "name" : "Coolie",
+      "url" : "https:\/\/github.com\/nixzhu\/Coolie"
+    },
+    {
+      "name" : "CoreDataStack",
+      "url" : "https:\/\/github.com\/bignerdranch\/CoreDataStack"
+    },
+    {
+      "name" : "CodableAlamofire",
+      "url" : "https:\/\/github.com\/Otbivnoe\/CodableAlamofire"
     }
   ]
 }

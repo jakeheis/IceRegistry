@@ -23,6 +23,10 @@
     {
       "name" : "keychain-swift",
       "url" : "https:\/\/github.com\/evgenyneu\/keychain-swift"
+    },
+    {
+      "name" : "Kuery",
+      "url" : "https:\/\/github.com\/kishikawakatsumi\/Kuery"
     }
   ]
 }
