@@ -278,6 +278,51 @@
       "name" : "SourceKittenDaemon",
       "url" : "https:\/\/github.com\/terhechte\/SourceKittenDaemon",
       "description" : "Swift Auto Completions for any Text Editor"
+    },
+    {
+      "name" : "SwiftVerbalExpressions",
+      "url" : "https:\/\/github.com\/VerbalExpressions\/SwiftVerbalExpressions",
+      "description" : "Swift Port of VerbalExpressions"
+    },
+    {
+      "name" : "Shiny",
+      "url" : "https:\/\/github.com\/efremidze\/Shiny",
+      "description" : "Iridescent Effect View (inspired by Apple Pay Cash) ✨"
+    },
+    {
+      "name" : "SwiftGen",
+      "url" : "https:\/\/github.com\/SwiftGen\/SwiftGen",
+      "description" : "The Swift code generator for your assets, storyboards, Localizable.strings, … — Get rid of all String-based APIs!"
+    },
+    {
+      "name" : "swift-nio",
+      "url" : "https:\/\/github.com\/apple\/swift-nio",
+      "description" : "Event-driven network application framework for high performance protocol servers & clients, non-blocking."
+    },
+    {
+      "name" : "SwiftSoup",
+      "url" : "https:\/\/github.com\/scinfu\/SwiftSoup",
+      "description" : "SwiftSoup: Pure Swift HTML Parser, with best of DOM, CSS, and jquery (Supports Linux, iOS, Mac, tvOS, watchOS)"
+    },
+    {
+      "name" : "Shallows",
+      "url" : "https:\/\/github.com\/dreymonde\/Shallows",
+      "description" : "🛶 Your lightweight persistence toolbox"
+    },
+    {
+      "name" : "SwiftShell",
+      "url" : "https:\/\/github.com\/kareman\/SwiftShell",
+      "description" : "A Swift framework for shell scripting."
+    },
+    {
+      "name" : "SwiftIcons",
+      "url" : "https:\/\/github.com\/ranesr\/SwiftIcons",
+      "description" : "Swift Library for Font Icons - ★ this library"
+    },
+    {
+      "name" : "SwiftCLI",
+      "url" : "https:\/\/github.com\/jakeheis\/SwiftCLI",
+      "description" : "A powerful framework that can be used to develop a CLI in Swift"
     }
   ]
 }

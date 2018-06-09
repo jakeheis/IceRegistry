@@ -64,6 +64,11 @@
       "name" : "PrediKit",
       "url" : "https:\/\/github.com\/KrakenDev\/PrediKit",
       "description" : "An NSPredicate DSL for iOS, OSX, tvOS, & watchOS. Inspired by SnapKit and lovingly written in Swift."
+    },
+    {
+      "name" : "PhoneNumberKit",
+      "url" : "https:\/\/github.com\/marmelroy\/PhoneNumberKit",
+      "description" : "A Swift framework for parsing, formatting and validating international phone numbers. Inspired by Google's libphonenumber."
     }
   ]
 }

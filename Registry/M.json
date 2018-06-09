@@ -39,6 +39,16 @@
       "name" : "ModelRocket",
       "url" : "https:\/\/github.com\/ovenbits\/ModelRocket",
       "description" : "An iOS framework for creating JSON-based models. Written in Swift."
+    },
+    {
+      "name" : "Mint",
+      "url" : "https:\/\/github.com\/yonaskolb\/Mint",
+      "description" : "A package manager that installs and runs Swift command line tools"
+    },
+    {
+      "name" : "Macaw",
+      "url" : "https:\/\/github.com\/exyte\/Macaw",
+      "description" : "Powerful and easy-to-use vector graphics Swift library with SVG support"
     }
   ]
 }

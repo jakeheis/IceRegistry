@@ -24,6 +24,11 @@
       "name" : "LocalizationKit_iOS",
       "url" : "https:\/\/github.com\/willpowell8\/LocalizationKit_iOS",
       "description" : "Realtime Dynamic localization translation delivery system for iOS and Mac OSX in Swift. Create and update texts from localization.com without needing to recompile or redeploy. Cocapod for iOS devices (iPad, iPhone, iPod Touch and Mac)"
+    },
+    {
+      "name" : "LifetimeTracker",
+      "url" : "https:\/\/github.com\/krzysztofzablocki\/LifetimeTracker",
+      "description" : "Find retain cycles \/ memory leaks sooner."
     }
   ]
 }

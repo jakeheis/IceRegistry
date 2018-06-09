@@ -33,9 +33,11 @@ struct RegistryFile: Codable {
 func syncRequest(url: String) -> Data? {
     let request = URLRequest(url: URL(string: url)!)
     let semaphore = DispatchSemaphore(value: 0)
-    var data: Data?
+    var data: Data? = nil
     let task = URLSession.shared.dataTask(with: request) { (returnedData, response, error) in
-        data = returnedData
+        if (response as! HTTPURLResponse).statusCode == 200 {
+            data = returnedData
+        } 
         semaphore.signal()
     }
     task.resume()
@@ -45,22 +47,8 @@ func syncRequest(url: String) -> Data? {
 
 func isPackage(url: String) -> Bool {
     let packageUrl = url + "/blob/HEAD/Package.swift"
-    guard let data = syncRequest(url: packageUrl), 
-        let response = String(data: data, encoding: .utf8) else {
-        return false
-    }
-    if response.contains("triggered an abuse detection mechanism") {
-        print("Warning: triggered abuse, sleeping for a minute")
-        sleep(60)
-        guard let secondTryData = syncRequest(url: packageUrl), 
-            let secondTryResponse = String(data: secondTryData, encoding: .utf8) else {
-            return false
-        }
-        if secondTryResponse.contains("triggered an abuse detection mechanism") {
-            fatalError("Error: rate limit exceeded, try a smaller page range")
-        }
-    }
-    return response != "Not Found"
+    let data = syncRequest(url: packageUrl)
+    return data != nil
 }
 
 let decoder = JSONDecoder()

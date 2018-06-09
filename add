@@ -4,7 +4,7 @@ import Foundation
 import Dispatch
 
 guard CommandLine.arguments.count == 3 else {
-    print("Usage: ./Script/add <url> <name>")
+    print("Usage: ./add <url> <name>")
     exit(1)
 }
 

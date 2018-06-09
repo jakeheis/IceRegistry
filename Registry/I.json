@@ -24,6 +24,11 @@
       "name" : "Interstellar",
       "url" : "https:\/\/github.com\/JensRavens\/Interstellar",
       "description" : "Simple and lightweight Functional Reactive Coding in Swift for the rest of us"
+    },
+    {
+      "name" : "IBLinter",
+      "url" : "https:\/\/github.com\/IBDecodable\/IBLinter",
+      "description" : "A linter tool for Interface Builder"
     }
   ]
 }

@@ -39,6 +39,21 @@
       "name" : "Tabman",
       "url" : "https:\/\/github.com\/uias\/Tabman",
       "description" : "A powerful paging view controller with indicator bar."
+    },
+    {
+      "name" : "Time",
+      "url" : "https:\/\/github.com\/dreymonde\/Time",
+      "description" : "🕰 Type-safe time calculations in Swift, powered by generics"
+    },
+    {
+      "name" : "TransitionButton",
+      "url" : "https:\/\/github.com\/AladinWay\/TransitionButton",
+      "description" : "UIButton sublass for loading and transition animation."
+    },
+    {
+      "name" : "TransitionableTab",
+      "url" : "https:\/\/github.com\/Interactive-Studio\/TransitionableTab",
+      "description" : "TransitionableTab makes it easy to animate when switching between tab."
     }
   ]
 }

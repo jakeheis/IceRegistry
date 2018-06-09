@@ -34,6 +34,11 @@
       "name" : "Highlighter",
       "url" : "https:\/\/github.com\/younatics\/Highlighter",
       "description" : "🖍 Highlight whatever you want! "
+    },
+    {
+      "name" : "http",
+      "url" : "https:\/\/github.com\/swift-server\/http",
+      "description" : "Repository for the development of cross-platform HTTP APIs"
     }
   ]
 }

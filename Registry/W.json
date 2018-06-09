@@ -19,6 +19,16 @@
       "name" : "Wrap",
       "url" : "https:\/\/github.com\/JohnSundell\/Wrap",
       "description" : "The easy to use Swift JSON encoder"
+    },
+    {
+      "name" : "Windless",
+      "url" : "https:\/\/github.com\/Interactive-Studio\/Windless",
+      "description" : "Windless makes it easy to implement invisible layout loading view."
+    },
+    {
+      "name" : "wtfautolayout",
+      "url" : "https:\/\/github.com\/johnpatrickmorgan\/wtfautolayout",
+      "description" : "The source code for Why The Failure, Auto Layout?"
     }
   ]
 }

@@ -79,6 +79,31 @@
       "name" : "Regex",
       "url" : "https:\/\/github.com\/sharplet\/Regex",
       "description" : "A delightful and expressive regular expression type for Swift."
+    },
+    {
+      "name" : "RxFeedback.swift",
+      "url" : "https:\/\/github.com\/NoTests\/RxFeedback.swift",
+      "description" : "Architecture for RxSwift"
+    },
+    {
+      "name" : "Repeat",
+      "url" : "https:\/\/github.com\/malcommac\/Repeat",
+      "description" : "Modern Timer in Swift, Debouncer and Throttler (alternative to NSTimer)"
+    },
+    {
+      "name" : "RxAlamofire",
+      "url" : "https:\/\/github.com\/RxSwiftCommunity\/RxAlamofire",
+      "description" : "RxSwift wrapper around the elegant HTTP networking in Swift Alamofire"
+    },
+    {
+      "name" : "RxBluetoothKit",
+      "url" : "https:\/\/github.com\/Polidea\/RxBluetoothKit",
+      "description" : "iOS & OSX Bluetooth library for RxSwift"
+    },
+    {
+      "name" : "RxKeyboard",
+      "url" : "https:\/\/github.com\/RxSwiftCommunity\/RxKeyboard",
+      "description" : "Reactive Keyboard in iOS"
     }
   ]
 }

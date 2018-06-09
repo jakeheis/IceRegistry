@@ -44,6 +44,21 @@
       "name" : "DeallocationChecker",
       "url" : "https:\/\/github.com\/fastred\/DeallocationChecker",
       "description" : "Catch leaking view controllers without opening Instruments."
+    },
+    {
+      "name" : "Disk",
+      "url" : "https:\/\/github.com\/saoudrizwan\/Disk",
+      "description" : "Delightful framework for iOS to easily persist structs, images, and data"
+    },
+    {
+      "name" : "DeviceKit",
+      "url" : "https:\/\/github.com\/dennisweissmann\/DeviceKit",
+      "description" : "DeviceKit is a value-type replacement of UIDevice."
+    },
+    {
+      "name" : "Delegated",
+      "url" : "https:\/\/github.com\/dreymonde\/Delegated",
+      "description" : "👷‍♀️ Closure-based delegation without memory leaks"
     }
   ]
 }

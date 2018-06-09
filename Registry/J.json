@@ -29,6 +29,11 @@
       "name" : "JSQDataSourcesKit",
       "url" : "https:\/\/github.com\/jessesquires\/JSQDataSourcesKit",
       "description" : "Protocol-oriented, type-safe data source objects that keep your view controllers light"
+    },
+    {
+      "name" : "JSONWebToken.swift",
+      "url" : "https:\/\/github.com\/kylef\/JSONWebToken.swift",
+      "description" : "Swift implementation of JSON Web Token (JWT)."
     }
   ]
 }

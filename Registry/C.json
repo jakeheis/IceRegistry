@@ -74,6 +74,31 @@
       "name" : "CodableAlamofire",
       "url" : "https:\/\/github.com\/Otbivnoe\/CodableAlamofire",
       "description" : "An extension for Alamofire that converts JSON data into Decodable objects."
+    },
+    {
+      "name" : "cariocamenu",
+      "url" : "https:\/\/github.com\/arn00s\/cariocamenu",
+      "description" : "The fastest zero-tap iOS menu."
+    },
+    {
+      "name" : "Charts",
+      "url" : "https:\/\/github.com\/danielgindi\/Charts",
+      "description" : "Beautiful charts for iOS\/tvOS\/OSX! The Apple side of the crossplatform MPAndroidChart."
+    },
+    {
+      "name" : "Cache",
+      "url" : "https:\/\/github.com\/hyperoslo\/Cache",
+      "description" : ":package: Nothing but Cache."
+    },
+    {
+      "name" : "CollectionViewSlantedLayout",
+      "url" : "https:\/\/github.com\/yacir\/CollectionViewSlantedLayout",
+      "description" : "UICollectionViewLayout to display slanted content"
+    },
+    {
+      "name" : "Chronology",
+      "url" : "https:\/\/github.com\/davedelong\/Chronology",
+      "description" : "Building a better date\/time library for Swift"
     }
   ]
 }

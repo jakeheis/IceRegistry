@@ -69,6 +69,16 @@
       "name" : "Apodimark",
       "url" : "https:\/\/github.com\/loiclec\/Apodimark",
       "description" : "Fast, flexible markdown parser written in Swift"
+    },
+    {
+      "name" : "AppFolder",
+      "url" : "https:\/\/github.com\/dreymonde\/AppFolder",
+      "description" : "🗂 Never use NSSearchPathForDirectoriesInDomains again. Never."
+    },
+    {
+      "name" : "Action",
+      "url" : "https:\/\/github.com\/RxSwiftCommunity\/Action",
+      "description" : "Abstracts actions to be performed in RxSwift."
     }
   ]
 }

@@ -59,6 +59,11 @@
       "name" : "FlexibleImage",
       "url" : "https:\/\/github.com\/kawoou\/FlexibleImage",
       "description" : "A simple way to play with the image!"
+    },
+    {
+      "name" : "Fakery",
+      "url" : "https:\/\/github.com\/vadymmarkov\/Fakery",
+      "description" : ":alien: Swift fake data generator"
     }
   ]
 }

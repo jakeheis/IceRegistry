@@ -14,6 +14,16 @@
       "name" : "View2ViewTransition",
       "url" : "https:\/\/github.com\/naru-jpn\/View2ViewTransition",
       "description" : "Custom interactive view controller transition from one view to another view."
+    },
+    {
+      "name" : "Valet",
+      "url" : "https:\/\/github.com\/square\/Valet",
+      "description" : "Valet lets you securely store data in the iOS, tvOS, or macOS Keychain without knowing a thing about how the Keychain works. It’s easy. We promise."
+    },
+    {
+      "name" : "VisualEffectView",
+      "url" : "https:\/\/github.com\/efremidze\/VisualEffectView",
+      "description" : "Dynamic blur background view with tint color (UIVisualEffectView subclass) 📱"
     }
   ]
 }

@@ -34,6 +34,11 @@
       "name" : "Guitar",
       "url" : "https:\/\/github.com\/ArtSabintsev\/Guitar",
       "description" : "A Cross-Platform String and Regular Expression Library written in Swift."
+    },
+    {
+      "name" : "GraphQL",
+      "url" : "https:\/\/github.com\/GraphQLSwift\/GraphQL",
+      "description" : "The Swift GraphQL implementation for macOS and Linux"
     }
   ]
 }
