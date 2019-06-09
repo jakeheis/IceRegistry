@@ -99,6 +99,11 @@
       "name" : "Chronology",
       "url" : "https:\/\/github.com\/davedelong\/Chronology",
       "description" : "Building a better date\/time library for Swift"
+    },
+    {
+      "name" : "Cosmic",
+      "url" : "git@github.com:jnewc\/Cosmic.git",
+      "description" : "A log reporting framework written in Swift"
     }
   ]
 }
