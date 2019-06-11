@@ -102,7 +102,7 @@
     },
     {
       "name" : "Cosmic",
-      "url" : "git@github.com:jnewc\/Cosmic.git",
+      "url" : "https:\/\/github.com\/jnewc\/Cosmic",
       "description" : "A log reporting framework written in Swift"
     }
   ]
