@@ -323,6 +323,11 @@
       "name" : "SwiftCLI",
       "url" : "https:\/\/github.com\/jakeheis\/SwiftCLI",
       "description" : "A powerful framework that can be used to develop a CLI in Swift"
+    },
+    {
+      "name" : "SwiftyMocky",
+      "url" : "https:\/\/github.com\/MakeAWishFoundation\/SwiftyMocky.git",
+      "description" : "Framework for mock generation. Adds a set of handy methods, simplifying testing."
     }
   ]
 }
