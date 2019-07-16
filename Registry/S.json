@@ -333,6 +333,11 @@
       "name" : "SwiftySCADKit",
       "url" : "https:\/\/github.com\/Samasaur1\/SwiftySCADKit",
       "description" : "A Swift package to allow OpenSCAD work in Swift"
+    },
+    {
+      "name" : "SwiftIP",
+      "url" : "https:\/\/github.com\/Samasaur1\/SwiftIP",
+      "description" : "A library to help with getting IP addresses in Swift"
     }
   ]
 }
