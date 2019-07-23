@@ -59,6 +59,11 @@
       "name" : "Delegated",
       "url" : "https:\/\/github.com\/dreymonde\/Delegated",
       "description" : "👷‍♀️ Closure-based delegation without memory leaks"
+    },
+    {
+      "name" : "DiceKit",
+      "url" : "https:\/\/github.com\/Samasaur1\/DiceKit",
+      "description" : "A Swift module for simulating dice both real and unreal"
     }
   ]
 }
